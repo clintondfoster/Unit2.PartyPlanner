@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#submitButton {
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#party-table {
+    border: solid blue 1px;
+    width: 80%;
+    margin: 20px auto;
+    list-style: none;
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+tr {
+    margin: 10px auto;
+    padding: 10px;
+    border: red solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.deleteButton {
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

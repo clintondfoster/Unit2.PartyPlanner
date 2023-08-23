@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Event Planner</title>
+</head>
+<body>
+    <h1>Party Planner</h1>
+    <table id="party-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date/Time</th>
+                <th>Location</th>
+                <th>Description</th>
+                <th style="border: 1px solid black;">Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <ul id="party-list">
+
+    </ul>
+    <form id="party-form">
+        <h5>Join the Party! Add your next event to the list.</h5>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="date">Date:</label>
+        <input type="text" id="date" required>
+
+        <label for="time">Time:</label>
+        <input type="text" id="time" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" rows="4"  required></textarea>
+
+        <button type="submit" id="submitButton">Add Event</button>
+    </form>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
